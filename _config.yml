@@ -60,7 +60,7 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "The quieter you become, the more you are able to hear."
-  - text: "Javascript = <3"
+  - text: "Javascript = &lt;3"
 
 ########
 # Blog #
