@@ -1,2 +1,3 @@
-# 0xNacho.github.io
-Personal website and Jekyll powered blog
+Personal Jekyll Theme.
+
+Available on: [0xNacho Site](http://0xnacho.github.io)
