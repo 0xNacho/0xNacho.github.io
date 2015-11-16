@@ -45,7 +45,7 @@ keywords: "0xnacho, nacho garcia, personal , jekyll"
 
 black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/me.jpg"
+me-img: "/img/me.png"
 
 ##############################
 # Dynamic Text on the header #
@@ -86,7 +86,7 @@ disqus-shortname: "0xNacho"
 ###############
 
 events:
-  - image: "/img/career/kschool.jpg"
+  - image: "/img/kschool.jpg"
     date: "September 2015 - Today"
     description: "Lecturer of Master in Big Data Architecture (NoSQL, MongoDB)"
   - image: "/img/treelogic.png"
