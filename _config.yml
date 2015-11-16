@@ -34,7 +34,7 @@ pages_list:
 
 author: "Nacho García (0xNacho)"
 lang: "es"
-title: "{ 0xNacho }"
+title: "0xNacho's Thoughts"
 favicon: "/img/favicon.ico"
 description: "Blog and website of 0xNacho, blogging mainly for tech. Opinions expressed are mine."
 keywords: "0xnacho, nacho garcia, personal , jekyll"
