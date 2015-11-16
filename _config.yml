@@ -45,7 +45,7 @@ keywords: "0xnacho, nacho garcia, personal , jekyll"
 
 black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpg"
 
 ##############################
 # Dynamic Text on the header #
@@ -61,7 +61,7 @@ delete-delay: 2000  # Default 5000
 lines:      # You can add HTML Tags in the Text
   - text: "My Rules:"
   - text: "The quieter you become, the more you are able to hear. (#Kali)"
-  - text: "Javascript = &lt;3"
+  - text: "Javascript === &lt;3"
 
 
 ########
@@ -91,13 +91,13 @@ events:
     description: "Lecturer of Master in Big Data Architecture (NoSQL, MongoDB)"
   - image: "/img/treelogic.png"
     date: "November 2012 - Today"
-    description: "Treelogic S.L."
+    description: "Treelogic S.L. &lt;3"
   - image: "/img/uniovi.png"
     date: "September 2013 - 2015"
-    description: "A Master Degree on Web Engineering"
+    description: "A Master Degree on Web Engineering, at University of Oviedo"
   - image: "/img/uniovi.png"
     date: "September 2009 - September 2012"
-    description: "A Bachelor of Software Engineering"
+    description: "Bachelor of Software Engineering, at University of Oviedo"
   - image: "/img/chick.png"
     date: "December 1991 - Today"
     description: "Hey! I was born!"
@@ -121,7 +121,7 @@ social:
   - title: "github"
     url: "https://github.com/0xNacho"
   - title: "linkedin"
-    url: "https://www.linkedin.com/profile/view?id=AAMAAA4-m3sBwxYZ1luASSBdSXPgzju7Cl_W0Uc"
+    url: "https://www.linkedin.com/in/nacho-garc%C3%ADa-fern%C3%A1ndez-b6305068"
   - title: "rss"
     url: "/feed.xml"
 
