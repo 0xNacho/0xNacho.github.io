@@ -89,26 +89,18 @@ events:
   - image: "/img/career/spidertocat.png"
     date: "September 2015 - Today"
     description: "Lecturer of Master in Big Data Architecture (NoSQL, MongoDB)"
-
-
   - image: "/img/jetpacktocat.jpg"
     date: "November 2012 - Today"
     description: "Treelogic S.L."
-
    - image: "/img/treelogic.jpg"
     date: "September 2013 - 2015"
     description: "A Master Degree on Web Engineering"
-
-
   - image: "/img/treelogic.jpg"
     date: "September 2009 - September 2012"
     description: "A Bachelor of Software Engineering"
-
-
   - image: "/img/chick.png"
     date: "December 1991 - Today"
     description: "Hey! I was born!"
-
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
