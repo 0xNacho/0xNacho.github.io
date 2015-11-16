@@ -8,7 +8,7 @@ url: "https://0xnacho.github.io"
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /
+baseurl: https://0xnacho.github.io
 
 # Google tracking id to track your visitors
 

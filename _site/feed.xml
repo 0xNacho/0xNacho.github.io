@@ -3,8 +3,8 @@
 	<channel>
 		<title>{ 0xNacho }</title>
 		<description>Blog and website of 0xNacho, blogging mainly for tech. Opinions expressed are mine.</description>
-		<link>https://0xnacho.github.io/</link>
-		<atom:link href="https://0xnacho.github.io//feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://0xnacho.github.iohttps://0xnacho.github.io</link>
+		<atom:link href="https://0xnacho.github.iohttps://0xnacho.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Welcome to { Personal } Jekyll Theme!</title>
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Sat, 27 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://0xnacho.github.io//tech/2015/06/27/welcome.html</link>
-				<guid isPermaLink="true">https://0xnacho.github.io//tech/2015/06/27/welcome.html</guid>
+				<link>https://0xnacho.github.iohttps://0xnacho.github.io/tech/2015/06/27/welcome.html</link>
+				<guid isPermaLink="true">https://0xnacho.github.iohttps://0xnacho.github.io/tech/2015/06/27/welcome.html</guid>
 			</item>
 		
 	</channel>
