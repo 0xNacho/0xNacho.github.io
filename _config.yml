@@ -57,11 +57,12 @@ loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
 type-speed:	10		# Default 10
 start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
+delete-delay: 2000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "My Rules:"
-  - text: "1º Javascript = &lt;3"
   - text: "2º The quieter you become, the more you are able to hear. (#Kali)"
+  - text: "1º Javascript = &lt;3"
+
 
 ########
 # Blog #
@@ -91,9 +92,11 @@ events:
   - image: "/img/jetpacktocat.jpg"
     date: "November 2012 - Today"
     description: "Treelogic S.L."
-
   - image: "/img/treelogic.jpg"
     date: "December 1991 - Today"
+    description: "A Bachelor of Software Engineering"
+  - image: "/img/treelogic.jpg"
+    date: "September 2009 - September 2012"
     description: "Hey! I was born!"
 
 
