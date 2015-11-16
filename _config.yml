@@ -59,8 +59,9 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The quieter you become, the more you are able to hear."
-  - text: "Javascript = &lt;3"
+  - text: "My Rules:"
+  - text: "1º Javascript = &lt;3"
+  - text: "2º The quieter you become, the more you are able to hear. (#Kali)"
 
 ########
 # Blog #
@@ -114,6 +115,8 @@ social:
     url: "https://twitter.com/0xNacho"
   - title: "github"
     url: "https://github.com/0xNacho"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/profile/view?id=AAMAAA4-m3sBwxYZ1luASSBdSXPgzju7Cl_W0Uc"
   - title: "rss"
     url: "/feed.xml"
 
