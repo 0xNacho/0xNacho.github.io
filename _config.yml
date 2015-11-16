@@ -86,7 +86,7 @@ disqus-shortname: "0xNacho"
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
+  - image: "/img/career/kschool.jpg"
     date: "September 2015 - Today"
     description: "Lecturer of Master in Big Data Architecture (NoSQL, MongoDB)"
   - image: "/img/treelogic.png"
