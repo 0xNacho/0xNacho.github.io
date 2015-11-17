@@ -23,7 +23,7 @@
                   <!-- Scroll to section for each page in index -->
                   {% for p in site.pages_list %}
                     <li>
-                      <a class="page-scroll" href="#{{ p[1] }}"> {{ p[0] }}</a>
+                      <a  style="color:black;" class="page-scroll" href="#{{ p[1] }}"> {{ p[0] }}</a>
                     </li>
                   {% endfor %}
 
@@ -35,7 +35,7 @@
                     {% if p[1] == "latest-post" %}
                         <a class="page-scroll" href="{{site.baseurl}}/blog/index.html"> {{ p[0] }}</a>
                     {% else %}
-                        <a style="color:black;" class="page-scroll" href="{{site.baseurl}}/index.html#{{ p[1] }}"> {{ p[0] }}</a>
+                        <a class="page-scroll" href="{{site.baseurl}}/index.html#{{ p[1] }}"> {{ p[0] }}</a>
                     {% endif %}
                     </li>
                   {% endfor %}
