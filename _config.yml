@@ -59,7 +59,6 @@ type-speed: 10    # Default 10
 start-delay: 200  # Default 200
 delete-delay: 2000  # Default 5000
 lines:      # You can add HTML Tags in the Text
-  - text: "My Rules:"
   - text: "The quieter you become, the more you are able to hear. (#Kali)"
   - text: "Javascript === &lt;3"
 
