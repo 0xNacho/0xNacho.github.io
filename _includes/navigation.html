@@ -12,7 +12,7 @@
             {% else %}
               <a class="navbar-brand page-scroll" href="{{site.baseurl}}/index.html#page-top">
             {% endif %}
-            <div>{% if site.black-favicon %}<img src="{{site.baseurl}}{{ site.black-favicon }}" alt=""> <span style="color:black;"> {% endif %}{{ site.title }}</span></div>
+            <div>{% if site.black-favicon %}<img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">  {% endif %}{{ site.title }}</div>
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -23,7 +23,7 @@
                   <!-- Scroll to section for each page in index -->
                   {% for p in site.pages_list %}
                     <li>
-                      <a  style="color:black;" class="page-scroll" href="#{{ p[1] }}"> {{ p[0] }}</a>
+                      <a class="page-scroll" href="#{{ p[1] }}"> {{ p[0] }}</a>
                     </li>
                   {% endfor %}
 
