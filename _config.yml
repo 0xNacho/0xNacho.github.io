@@ -44,7 +44,7 @@ keywords: "0xnacho, nacho garcia, personal , jekyll"
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.png"
+background-img: "/img/intro-bg.png"
 me-img: "/img/me.png"
 
 ##############################
