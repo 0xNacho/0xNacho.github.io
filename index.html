@@ -1,7 +1,355 @@
----
-layout: index
-section-type: index
----
-<!--
-If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: a1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #eaeaea;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 2rem;
+            border: 3px solid #3498db;
+        }
+        .header-text {
+            flex-grow: 1;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        .tagline {
+            font-size: 1.5rem;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 2rem;
+        }
+        .item-image {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .item-content {
+            flex-grow: 1;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .company, .institution, .project-name {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.2rem;
+        }
+        .position, .degree {
+            font-style: italic;
+            color: #34495e;
+        }
+        .duration {
+            color: #7f8c8d;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+        .skill {
+            background-color: #e1f0fa;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        .skill:hover {
+            background-color: #3498db;
+            color: white;
+        }
+        .fun-facts {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .fun-facts h3 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        .fun-facts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .fun-fact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .fun-fact img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+        }
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .gallery-photo {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .gallery-photo:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 2px solid #eaeaea;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-image {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+            .experience-item, .education-item, .project-item {
+                flex-direction: column;
+                align-items: center;
+            }
+            .photo-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/img/profile.jpeg" alt="It's me!" class="profile-image">
+            <div class="header-text">
+                <h1>Nacho</h1>
+                <div class="tagline">Head of Data Engineering</div>
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/nacho-garc%C3%ADa-fern%C3%A1ndez-b6305068/">LinkedIn</a>
+                    <a href="https://github.com/0xNacho">GitHub</a>
+                    <span>Based in: Madrid, Spain</span>
+                </div>
+            </div>
+        </header>
+
+        <section id="about-me">
+            <h2>Hey there! 👋</h2>
+            <!--center text-->
+            <p>
+                Welcome to my corner of the web! 👋 I'm a Head of Data Engineering at ODS 🏢 who loves building scalable data solutions 🚀 and empowering software developers 💻. When I'm not architecting real-time datalakes for banking solutions, you can find me diving deep into cloud computing infrastructure (especially AWS) ☁️ or writing code to solve complex problems 🧩. I believe in hands-on technical leadership 🛠️ - you'll find me in the trenches pushing code alongside my team, not hiding behind a management title! 💪 I lead a team of 60 incredible engineers 👥, but I'm one of them first and foremost - debugging, coding, and solving real technical challenges daily 🔍. No pointless meetings 🙅‍♂️, just practical solutions and working code that delivers results. 🎯
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Where I've Worked</h2>
+            
+            <div class="experience-item">
+                <!-- the image is to big, so adapt it-->
+                 <img 
+                <img src="img/ods.png" alt="Company Logo" class="item-image">
+                <div class="item-content">
+                    <div class="item-header">
+                        <span class="company">Open Digital Services (Openbank by GrupoSantander)</span>
+                        <span class="duration">Jan 2020 - Present</span>
+                    </div>
+                    <div class="position">Head of Data Engineering</div>
+                    <p>In this position I design, create and maintain 100% cloud based (AWS) datalakes all around the globe for different banking solutions. We manage more than 20 AWS holding datalake solutions in different regions.</p>
+                    <ul>
+                        <li>Manage the technical team while being part of it: coding, helping in problem resolution and proposing new solutions.</li>
+                        <li>Design scalable and efficient solutions: POCs are OK but moving to production environments has many other additional challenges.</li>
+                        <li>Cost optimizations: even though I work for a bank and we have money (:D), I love to design and build cost effective solutions.</li>
+                        <li>Implemented auto-scaling data processing clusters that handle peak loads while automatically scaling down during quiet periods, saving 40% on compute costs.</li>
+                        <li>Successfully migrated legacy on-premise datalakes to cloud-native solutions, improving performance by 300% while reducing maintenance overhead.</li>
+                        <li>Develop 50+ software components and libraries to support data ingestion, transformation, and analysis, ensuring high code quality and maintainability.</li>
+                        <li>Implemented CI/CD pipelines for data processing workflows, reducing deployment time by 70% and increasing team productivity.</li>
+                        <li>Designed and implemented a real-time data streaming architecture using AWS Kinesis, enabling near-instantaneous data processing and analytics.</li>
+                        <li>Many other things to tell...It's been a a great journey during this time!.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="img/tech.png" alt="Previous Company Logo" class="item-image">
+                <div class="item-content">
+                    <div class="item-header">
+                        <span class="company">Some other jobs</span>
+                        <span class="duration">Nov 2012 - Jan 2020</span>
+                    </div>
+                    <div class="position">Software Engineer - Full Stack guy</div>
+                    <p>My journey here and the skills I picked up along the way previous to Openbank:</p>
+                    <ul>
+                        <li>AWS architect: design and implement aws-bases solution for several clients using 30+ AWS services (and yes, 30+ is real. I stopped counting after 32 :D).</li>
+                        <li>Backend developer (Java, NodeJS, Python)</li>
+                        <li>Frontend developer: Typescript </li>
+                        <li>Scripting languages: Python, Bash</li>
+                        <li>Data Engineering stuff: Apache spark, Distributed real-time processing (Apache Flink), Table formats (Iceberg, Hudi), etc.</li>
+                        <li>Pentesting: web-based application pentesting (I've reported several vulnerabilities in all the companies I stayed). In my first company I discovered a vulnerability in the mail system that easily allowed an attacker to access any other person just clicking a malicious link </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>My Learning Path</h2>
+            
+            <div class="education-item">
+                <img src="img/uo.jpg" alt="University" class="item-image">
+                <div class="item-content">
+                    <div class="item-header">
+                        <span class="institution">Universidad de Oviedo</span>
+                        <span class="duration">2013 - 2015</span>
+                    </div>
+                    <div class="degree">Computer Science</div>
+                    <p>🚨Spoiler about me 🚨</p>
+                    <p>I must say I'm someone who generally dislikes credentialism. In my opinion, especially in software engineering, a university degree proves less and less over time. I believe people should be evaluated based on what they are capable of building, not by the number of degrees they hold.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Toolkit</h2>
+            <p>Things I'm good at and tools I love to work with:</p>
+            <div class="skills">
+                <span class="skill">Amazon Web Services</span>
+                <span class="skill">Cloud Computing</span>
+                <span class="skill">Backend development</span>
+                <span class="skill">Java</span>
+                <span class="skill">Scala</span>
+                <span class="skill">Bash</span>
+                <span class="skill">Node</span>
+                <span class="skill">Python</span>
+                <span class="skill">Typescript</span>
+                <span class="skill">Ethical Hacking</span>
+                <span class="skill">Pentesting</span>
+                <span class="skill">Apache Spark</span>
+                <span class="skill">Apache Flink</span>
+                <span class="skill">Apache Kafka</span>
+                <span class="skill">Apache Iceberg</span>
+                <span class="skill">Good communication</span>
+                <span class="skill">Soft skills</span>
+                <span class="skill">...</span>
+            </div>
+        </section>
+
+        <section id="fun-facts">
+            <h2>Random Facts About Me</h2>
+            <div class="fun-facts">
+                <div class="fun-facts-grid">
+                    <div class="fun-fact">
+                        <img src="img/me1.jpeg" alt="Biking">
+                        <p>Mountain biking. My favorite sport for sure.</p>
+                    </div>
+                    <div class="fun-fact">
+                        <img src="img/me2.jpeg" alt="Fun Fact 2">
+                        <p>I'm not good at skying, but I like it.</p>
+                    </div>
+                    <div class="fun-fact">
+                        <img src="img/me3.jpeg" alt="Fun Fact 3">
+                        <p>As many people in this world, I love visiting new countries.</p>
+                    </div>
+                    <div class="fun-fact">
+                        <img src="img/me4.jpeg" alt="Fun Fact 4">
+                        <p>Discovering new mountains running :)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect!</h2>
+            <p>Here are some links where you can contact me for any project. Also, if you're interested in becoming part of my team.
+                Note: as you can see, I’m not sharing an email address, because as you probably know, it’s a security risk. Any crawler could collect emails from websites and later add you to a spam list. DON'T do it!</p>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/nacho-garc%C3%ADa-fern%C3%A1ndez-b6305068/">Connect on Linkedin</a>
+                <a href="https://github.com/0xNacho">See my code on GitHub</a>
+            </div>
+        </section>
+
+        <footer>
+            Made with ❤️ and coffee | Last updated: April 2025
+        </footer>
+    </div>
+</body>
+</html>
